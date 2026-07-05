@@ -94,9 +94,16 @@
 		95B0F7A12FFA6115007413D5 /* AIChat */ = {
 			isa = PBXGroup;
 			children = (
+				95B0F7CC2FFA6163007413D5 /* App */,
+				95B0F7CD2FFA616F007413D5 /* Models */,
+				95B0F7CE2FFA617D007413D5 /* Views */,
+				95B0F7D12FFA619F007413D5 /* ViewModels */,
+				95B0F7D42FFA61C5007413D5 /* Utilities */,
+				95B0F7D32FFA61BA007413D5 /* Networking */,
+				95B0F7D22FFA61B1007413D5 /* Services */,
+				95B0F7D52FFA61CF007413D5 /* Resources */,
 				95B0F7A22FFA6115007413D5 /* AIChatApp.swift */,
 				95B0F7A42FFA6115007413D5 /* ContentView.swift */,
-				95B0F7A62FFA6116007413D5 /* Assets.xcassets */,
 				95B0F7A82FFA6116007413D5 /* Preview Content */,
 			);
 			path = AIChat;
@@ -125,6 +132,79 @@
 				95B0F7BF2FFA6116007413D5 /* AIChatUITestsLaunchTests.swift */,
 			);
 			path = AIChatUITests;
+			sourceTree = "<group>";
+		};
+		95B0F7CC2FFA6163007413D5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		95B0F7CD2FFA616F007413D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95B0F7CE2FFA617D007413D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95B0F7D02FFA6194007413D5 /* Screens */,
+				95B0F7CF2FFA6188007413D5 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95B0F7CF2FFA6188007413D5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		95B0F7D02FFA6194007413D5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		95B0F7D12FFA619F007413D5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		95B0F7D22FFA61B1007413D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		95B0F7D32FFA61BA007413D5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		95B0F7D42FFA61C5007413D5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		95B0F7D52FFA61CF007413D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95B0F7A62FFA6116007413D5 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
