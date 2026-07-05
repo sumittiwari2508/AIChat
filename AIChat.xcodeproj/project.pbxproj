@@ -94,13 +94,13 @@
 		95B0F7A12FFA6115007413D5 /* AIChat */ = {
 			isa = PBXGroup;
 			children = (
-				95B0F7CC2FFA6163007413D5 /* App */,
-				95B0F7CD2FFA616F007413D5 /* Models */,
-				95B0F7CE2FFA617D007413D5 /* Views */,
-				95B0F7D12FFA619F007413D5 /* ViewModels */,
-				95B0F7D42FFA61C5007413D5 /* Utilities */,
-				95B0F7D32FFA61BA007413D5 /* Networking */,
-				95B0F7D22FFA61B1007413D5 /* Services */,
+				95EA99482FFA70A30058CE94 /* App */,
+				95EA99492FFA70BC0058CE94 /* Models */,
+				95EA994A2FFA70CD0058CE94 /* Views */,
+				95EA994B2FFA70E00058CE94 /* ViewModels */,
+				95EA994E2FFA71130058CE94 /* Services */,
+				95EA994D2FFA71040058CE94 /* Networking */,
+				95EA994C2FFA70F60058CE94 /* Utilities */,
 				95B0F7D52FFA61CF007413D5 /* Resources */,
 				95B0F7A22FFA6115007413D5 /* AIChatApp.swift */,
 				95B0F7A42FFA6115007413D5 /* ContentView.swift */,
@@ -134,77 +134,61 @@
 			path = AIChatUITests;
 			sourceTree = "<group>";
 		};
-		95B0F7CC2FFA6163007413D5 /* App */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		95B0F7CD2FFA616F007413D5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		95B0F7CE2FFA617D007413D5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				95B0F7D02FFA6194007413D5 /* Screens */,
-				95B0F7CF2FFA6188007413D5 /* Components */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		95B0F7CF2FFA6188007413D5 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		95B0F7D02FFA6194007413D5 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		95B0F7D12FFA619F007413D5 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		95B0F7D22FFA61B1007413D5 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		95B0F7D32FFA61BA007413D5 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		95B0F7D42FFA61C5007413D5 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
 		95B0F7D52FFA61CF007413D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				95B0F7A62FFA6116007413D5 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		95EA99482FFA70A30058CE94 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		95EA99492FFA70BC0058CE94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95EA994A2FFA70CD0058CE94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95EA994B2FFA70E00058CE94 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		95EA994C2FFA70F60058CE94 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		95EA994D2FFA71040058CE94 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		95EA994E2FFA71130058CE94 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
